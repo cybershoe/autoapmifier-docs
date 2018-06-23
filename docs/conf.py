@@ -150,6 +150,6 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'AutoAPMifier', 'AutoAPMifier Documentation',
-     author, 'AutoAPMifier', 'One line description of project.',
+     author, 'F5 Networks Inc.', 'AutpAPMifier Browser Extension',
      'Miscellaneous'),
 ]
