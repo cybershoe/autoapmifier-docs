@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -9,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Index &mdash; AutoAPMifier AutoAPMifier documentation</title>
+  <title>Comon Issues &mdash; AutoAPMifier AutoAPMifier documentation</title>
   
 
   
@@ -27,8 +26,9 @@
 
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="index" title="Index" href="#" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Configuring AutoAPMifier" href="configuration.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -79,10 +79,15 @@
               
             
             
-              <ul>
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Common ssues</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Common ssues</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#i-can-t-accept-the-eula-nothing-happens-with-i-click-the-i-accept-checkbox">I can’t accept the EULA, nothing happens with I click the “I Accept” checkbox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#i-ve-configured-a-domain-to-automatically-redirect-but-it-s-not-triggering-the-plugin">I’ve configured a domain to automatically redirect, but it’s not triggering the plugin</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -129,12 +134,14 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Index</li>
+      <li>Comon Issues</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
+            <a href="_sources/troubleshooting.rst.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
     
@@ -146,11 +153,46 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="comon-issues">
+<h1>Comon Issues<a class="headerlink" href="#comon-issues" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="i-can-t-accept-the-eula-nothing-happens-with-i-click-the-i-accept-checkbox">
+<h2>I can’t accept the EULA, nothing happens with I click the “I Accept” checkbox<a class="headerlink" href="#i-can-t-accept-the-eula-nothing-happens-with-i-click-the-i-accept-checkbox" title="Permalink to this headline">¶</a></h2>
+<p>You need to view the EULA before you can accept. Click the
+“End User License Agreement” link to open the EULA in a new tab. Once you’ve
+opened the EULA, you can check the “I Accept” box and begin using
+the extension.</p>
+</div>
+<div class="section" id="i-ve-configured-a-domain-to-automatically-redirect-but-it-s-not-triggering-the-plugin">
+<h2>I’ve configured a domain to automatically redirect, but it’s not triggering the plugin<a class="headerlink" href="#i-ve-configured-a-domain-to-automatically-redirect-but-it-s-not-triggering-the-plugin" title="Permalink to this headline">¶</a></h2>
+<p>Make sure you’re using a wildcard if you want to match all subdomains.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="40%" />
+<col width="60%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Pattern</th>
+<th class="head">Matches</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a href="#id1"><span class="problematic" id="id2">*</span></a>.intdomain.local</td>
+<td><div class="first last line-block">
+<div class="line">intdomain.local</div>
+<div class="line">app1.intdomain.local</div>
+<div class="line">app2.intdomain.local</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td>intdomain.local</td>
+<td><div class="first last line-block">
+<div class="line">intdomain.local <strong>only</strong></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
 
@@ -158,6 +200,13 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="configuration.html" class="btn btn-neutral" title="Configuring AutoAPMifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
