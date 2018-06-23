@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'AutoAPMifier'
-copyright = '2018, F5 Networks Inc.'
+copyright = '2018, F5 Networks Inc'
 author = 'AutoAPMifier'
 
 # The short X.Y version
