@@ -13,12 +13,12 @@ I've configured a domain to automatically redirect, but it's not triggering the 
 Make sure you're using a wildcard if you want to match all subdomains.
 
 
-+------------------+---------------------------+
-| Pattern          | Matches                   |
-+==================+===========================+
-| *.intdomain.local| | intdomain.local         |
-|                  | | app1.intdomain.local    |
-|                  | | app2.intdomain.local    |
-+------------------+---------------------------+
-| intdomain.local  | | intdomain.local **only**|
-+------------------+---------------------------+
++-------------------+---------------------------+
+| Pattern           | Matches                   |
++===================+===========================+
+| \*.intdomain.local| | intdomain.local         |
+|                   | | app1.intdomain.local    |
+|                   | | app2.intdomain.local    |
++-------------------+---------------------------+
+| intdomain.local   | | intdomain.local **only**|
++-------------------+---------------------------+
