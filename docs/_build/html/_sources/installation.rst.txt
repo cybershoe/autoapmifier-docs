@@ -13,7 +13,10 @@ Chrome
 
 Firefox
 --------
- .. Note:: The package is not publicly posted at this time. Please ask your F5 SE for access to the package.
+.. Note:: The plugin has been tested on Firefox version 60.0.1 and later. 
+          Earlier versions have not been tested and may not behave as expected.
+
+.. Note:: The package is not publicly posted at this time. Please ask your F5 SE for access to the package.
 
 #. Open Firefox.
 #. Click the hamburger menu (|hamburger|) in the top-right corner.
