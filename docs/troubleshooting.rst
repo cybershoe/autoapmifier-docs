@@ -22,3 +22,19 @@ Make sure you're using a wildcard if you want to match all subdomains.
 +-------------------+---------------------------+
 | intdomain.local   | | intdomain.local **only**|
 +-------------------+---------------------------+
+
+My settings don't sync betweeen Chrome browsers
+-----------------------------------------------
+
+This is by design. The extension does not currently support network location
+awareness, so a user with a both a home and office computer, for example, might
+not want the same settings on both computers. If the extension is enhanced to
+include location awareness, settings sync will be reconsidered at that time.
+
+I have a different question/idea/suggestion
+-------------------------------------------
+
+Feedback is welcome, either through to Chrome extension feedback system, or by
+e-mail at autoapmifier@f5.com. Please note that
+this is a side-project from the F5 field engineering team, and not an official 
+F5 product; as such, updates may be infrequent or not happen at all.
