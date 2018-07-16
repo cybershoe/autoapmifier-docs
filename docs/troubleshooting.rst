@@ -34,7 +34,7 @@ include location awareness, settings sync will be reconsidered at that time.
 I have a different question/idea/suggestion
 -------------------------------------------
 
-Feedback is welcome, either through to Chrome extension feedback system, or by
+Feedback is welcome, either through the Chrome extension feedback system, or by
 e-mail at autoapmifier@f5.com. Please note that
 this is a side-project from the F5 field engineering team, and not an official 
 F5 product; as such, updates may be infrequent or not happen at all.
