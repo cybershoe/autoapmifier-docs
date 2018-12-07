@@ -38,7 +38,7 @@ redirect through the APM portal.
 
 You can specify either a specific FQDN, or a wildcard to match all subdomains
 of a particular domain. If a URL matches both a wildcard domain and an
-individual FQDN in differnet APM configurations, the more specific (i.e.:
+individual FQDN in different APM configurations, the more specific (i.e.:
 the individual FQDN) takes precedence.
 
 +-------------------+----------------------------+
