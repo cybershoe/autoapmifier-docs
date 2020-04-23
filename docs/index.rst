@@ -19,4 +19,4 @@ URLs accordingly.
 
    Installation <installation>
    Configuration <configuration>
-   Common ssues <troubleshooting>
+   Common Issues <troubleshooting>
