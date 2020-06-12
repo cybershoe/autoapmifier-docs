@@ -31,6 +31,12 @@ awareness, so a user with a both a home and office computer, for example, might
 not want the same settings on both computers. If the extension is enhanced to
 include location awareness, settings sync will be reconsidered at that time.
 
+After I click a link and log in, I don't get redirected to my resource
+----------------------------------------------------------------------
+
+This is a known bug. As a workaround, go back and click the link again after
+you've logged into APM.
+
 I have a different question/idea/suggestion
 -------------------------------------------
 
